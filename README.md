@@ -21,7 +21,7 @@ On September 6th, 2018, DigitalOcean opened SEA1 in Singapore under its Asia-Pac
 
 On November 21st, 2018 the company announced all three data centers (LAX1, NYC3, and SFO2) are to go offline for maintenance between the hours of 9 am-5 pm PST. The next day many users across all regions began reporting issues with APIs resulting in failed Droplet creation requests due to the lack of available IP addresses. 
 
-##DigitalOcean Features Review
+## DigitalOcean Features Review
 
 DigitalOcean provides both SSD-based and legacy (SATA, formerly known as Elastic) server hosting. The legacy servers are accessible in all available regions except Mumbai. The SSD cloud servers come in two types: the standard computes droplet and the larger high memory droplets. There is a third type called an application Droplet which allows the user to run "software with all the benefits of a standard cloud server". The application Droplet type was launched on August 3rd, 2018, and is currently only available in San Francisco (SFO2). These Droplets allow for custom machine images to be deployed.
 
@@ -32,4 +32,3 @@ On February 27, 2018, the Low Memory option became available. The low memory Dro
 DigitalOcean provides DNS hosting through its Spaces product. Users are able to set up their own custom subdomain or utilize an existing third-party domain name that is already hosted elsewhere. DigitalOcean's DNS service has three different modes: Active, Passive, or Active/Passive. Each DNS zone has its own TTL (time-to-live), which dictates the expiration time of records set within that zone.
 
 By default, DigitalOcean nameservers are used to resolve DNS queries originating from within DigitalOcean's network. Customers may also opt to use customer nameservers if supplied by the customer.
-
